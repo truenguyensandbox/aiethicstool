@@ -1,115 +1,131 @@
-# AI Ethics Tool
+AI Ethics Tool
+A web-based application designed to evaluate AI-generated content for bias, ethics, transparency, and fairness concerns. This tool is aimed at helping developers and AI users ensure responsible and ethical AI usage.
 
-A web-based application that evaluates AI-generated content for potential **bias**, **ethics**, **transparency**, and **fairness** concerns. Designed to help developers and AI users ensure responsible and ethical AI use.
+📌 Features
+✅ Bias Detection: Detects biases based on gender, race, age, and more.
 
----
+✅ Ethical Concerns: Analyzes privacy risks, potential harm, and manipulation.
 
-## 📌 Features
+✅ Transparency Checks: Assesses source disclosure, explainability, and clarity.
 
-- ✅ **Bias Detection** (gender, race, age, etc.)
-- ✅ **Ethical Concerns** (privacy, harm, manipulation)
-- ✅ **Transparency Checks** (disclosure, explainability, source)
-- ✅ **Fairness Assessment** (opportunity, treatment, outcome)
-- 📊 **Risk Scoring** and color-coded indicators
-- 📝 **Detailed Findings** and actionable **recommendations**
-- 💻 **Client-side only** — No server or data tracking
-- 🌗 **Dark/Light mode** support
-- 📱 Fully **responsive** for mobile and desktop
+✅ Fairness Assessment: Evaluates fairness in terms of opportunity, treatment, and outcome.
 
----
+📊 Risk Scoring: Provides color-coded risk indicators for each dimension.
 
-## 📁 Installation
+📝 Detailed Findings: Offers actionable recommendations for improvement.
 
-### Option 1: Single File
-1. Download `ai-ethics-tool.html`
-2. Open in any modern browser
+💻 Client-side Only: No data tracking; runs locally in your browser.
 
-### Option 2: Separate Files
-1. Download:
-   - `index.html`
-   - `styles.css`
-   - `script.js`
-2. Place files in the same folder
-3. Open `index.html` in a browser
+🌗 Dark/Light Mode Support: Choose your preferred theme.
 
-### Hosting (e.g. w3schools)
-- Upload the files to your host
-- Access via the provided URL
+📱 Fully Responsive: Works seamlessly on mobile and desktop devices.
 
----
+📁 Installation
+Option 1: Single File
+Download ai-ethics-tool.html
 
-## 🚀 How to Use
+Open the file in any modern web browser.
 
-1. Paste **AI-generated content** into the textarea
-2. Select which ethical **dimensions** to analyze
-3. Click **"Analyze Content"**
-4. View:
-   - Risk **score** by category
-   - **Detailed issues** detected
-   - **Overall assessment**
-   - **Recommendations** for improvement
-5. Click **"Start New Analysis"** to reset
+Option 2: Separate Files
+Download the following files:
 
----
+index.html
 
-## ⚙️ Technologies Used
+styles.css
 
-- HTML5
-- CSS3 + [Tailwind CSS](https://tailwindcss.com/)
-- Vanilla JavaScript
-- Responsive design (mobile-first)
+script.js
 
----
+Place the files in the same folder.
 
-## 🔍 Analysis Methodology
+Open index.html in a browser.
 
-| Category        | What It Looks For |
-|----------------|-------------------|
-| **Bias**        | Gender, race, age, political, religious stereotypes |
-| **Ethics**      | Privacy, harm, autonomy, deception |
-| **Transparency**| Hidden sources, overconfidence, lack of explainability |
-| **Fairness**    | Unequal treatment, outcomes, or access |
+Hosting (e.g. W3Schools)
+Upload the files to your hosting provider.
 
-Analysis uses keyword/pattern matching based on ethical principles and known risk indicators.
+Access the tool via the provided URL.
 
----
+🚀 How to Use
+Paste AI-generated content into the text area.
 
-## 📂 File Structure
+Select the ethical dimensions you want to analyze.
 
-bash
+Click "Analyze Content".
+
+View:
+
+Risk score for each category.
+
+Detailed issues detected.
+
+Overall assessment of the content.
+
+Recommendations for improvements.
+
+Click "Start New Analysis" to reset the tool for a new evaluation.
+
+⚙️ Technologies Used
+HTML5 for structure.
+
+CSS3 with Tailwind CSS for styling.
+
+Vanilla JavaScript for functionality and logic.
+
+Mobile-first responsive design for accessibility on all devices.
+
+🔍 Analysis Methodology
+The tool analyzes AI-generated content based on the following categories:
+
+
+Category	What It Looks For
+Bias	Gender, race, age, political, religious stereotypes.
+Ethics	Privacy issues, harm, autonomy, and deception.
+Transparency	Hidden sources, overconfidence, and lack of explainability.
+Fairness	Unequal treatment, outcomes, or access.
+Analysis is based on keyword matching and pattern recognition against ethical principles and known risk indicators.
+
+📂 File Structure
+plaintext
+
 📁 ai-ethics-tool/
-├── index.html     # Main HTML file
-├── styles.css     # Extra styling
-└── script.js      # Analysis logic
+├── index.html     # Main HTML file for the app
+├── styles.css     # Extra styling for layout and appearance
+└── script.js      # JavaScript for content analysis logic
 
 
+⚠️ Limitations
+Keyword-based analysis, not context-aware.
 
+English-only support at the moment.
 
+Does not handle complex or nuanced content.
 
+Designed for educational and preliminary screening purposes only.
 
-##⚠️ Limitations
-Keyword-based, not context-aware
-English-only support
-Does not interpret complex or nuanced content
-Meant for educational and preliminary screening purposes only
 🔮 Future Improvements
-🌐 Multi-language support
-🤖 Advanced NLP techniques
-📚 Save/share analysis reports
-🧠 Domain-specific keyword customization
-📘 Analyze policies, code, other structured content
+🌐 Multi-language support.
+
+🤖 Advanced Natural Language Processing (NLP) techniques.
+
+📚 Ability to save and share analysis reports.
+
+🧠 Domain-specific keyword customization.
+
+📑 Analyze policies, code, and other structured content.
+
 🔐 Privacy
 All analysis is done locally in your browser.
-No data is sent to a server or stored permanently.
 
-##📝 License
-MIT License
+No data is sent to any server or stored permanently.
+
+📝 License
+This project is licensed under the MIT License.
 Feel free to use, modify, or distribute this tool.
 
-##🙌 Acknowledgments
-Inspired by principles of Responsible AI
-Built with HTML, CSS, and JavaScript
-UI inspired by modern web best practices
+🙌 Acknowledgments
+Inspired by the principles of Responsible AI.
 
+Built with HTML, CSS, and JavaScript.
+
+UI inspired by modern web best practices.
 
 
