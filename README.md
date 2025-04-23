@@ -76,7 +76,7 @@ Analysis uses keyword/pattern matching based on ethical principles and known ris
 
 ## 📂 File Structure
 
-```plaintext
+bash
 📁 ai-ethics-tool/
 ├── index.html     # Main HTML file
 ├── styles.css     # Extra styling
