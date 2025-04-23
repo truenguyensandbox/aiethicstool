@@ -1,0 +1,24 @@
+.analysis-card {
+    transition: all 0.3s ease;
+}
+.analysis-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Custom scrollbar */
+textarea::-webkit-scrollbar {
+    width: 8px;
+}
+textarea::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.dark textarea::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+textarea::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #5D5CDE;
+}
