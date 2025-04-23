@@ -82,28 +82,3 @@ Analysis uses keyword/pattern matching based on ethical principles and known ris
 ├── styles.css     # Extra styling
 └── script.js      # Analysis logic
 
-⚠️ Limitations
-Keyword-based, not context-aware
-English-only support
-Does not interpret complex or nuanced content
-Meant for educational and preliminary screening purposes only
-🔮 Future Improvements
-🌐 Multi-language support
-🤖 Advanced NLP techniques
-📚 Save/share analysis reports
-🧠 Domain-specific keyword customization
-📘 Analyze policies, code, other structured content
-🔐 Privacy
-All analysis is done locally in your browser.
-No data is sent to a server or stored permanently.
-
-📝 License
-MIT License
-Feel free to use, modify, or distribute this tool.
-
-🙌 Acknowledgments
-Inspired by principles of Responsible AI
-Built with HTML, CSS, and JavaScript
-UI inspired by modern web best practices
-
-
