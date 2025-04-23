@@ -82,7 +82,12 @@ Analysis uses keyword/pattern matching based on ethical principles and known ris
 ├── styles.css     # Extra styling
 └── script.js      # Analysis logic
 
-⚠️ Limitations
+
+
+
+
+
+##⚠️ Limitations
 Keyword-based, not context-aware
 English-only support
 Does not interpret complex or nuanced content
@@ -97,11 +102,11 @@ Meant for educational and preliminary screening purposes only
 All analysis is done locally in your browser.
 No data is sent to a server or stored permanently.
 
-📝 License
+##📝 License
 MIT License
 Feel free to use, modify, or distribute this tool.
 
-🙌 Acknowledgments
+##🙌 Acknowledgments
 Inspired by principles of Responsible AI
 Built with HTML, CSS, and JavaScript
 UI inspired by modern web best practices
